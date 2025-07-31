@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/output.css">
+    <title>x.com</title>
+</head>
+
+<body>
+    <div class="container flex m-auto">
+        <div class="first w-20 md:w-[75%] ">
+            <div class="side-bar flex justify-center items-center sticky top-0">
+                <!-- <ul class="flex flex-col text-xl space-y-2 pr-3 pl-32 font-semibold"> -->
+                <ul class="lex flex flex-col text-2xl space-y-2 md:pl-32 font-semibold w-full">
+                    <li class="flex justify-star0t items-center gap-3 w-fit px-4 py-1">
+                        <div class="logo mt-2 w-70 cursor-pointer">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"
+                                class="w-7 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-18jsvk2 r-16y2uox r-8kz0gk mx-auto">
+                                <g>
+                                    <path
+                                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 w-fit px-4 py-1 hover:bg-gray-200 hover:rounded-[15vmin] hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">home</span>
+                        <span class="hidden md:block">Home</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 w-fit px-4 py-1  hover:bg-gray-200 hover:rounded-[15vmin] hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">search</span> <span
+                            class="hidden md:block">Explore</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 w-fit px-4 py-1  hover:bg-gray-200 hover:rounded-[15vmin] hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">Notifications</span> <span
+                            class="hidden md:block">Notifications</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 w-fit px-4 py-1  hover:bg-gray-200 hover:rounded-[15vmin] hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">mail</span> <span
+                            class="hidden md:block">Messages</span>
+                    </li>
+                    <li
+                        class="flex justify-center md:justify-start items-center gap-4 w-full px-4 py-1  hover:bg-gray-200 hover:rounded-[15vmin] hover:cursor-pointer">
+                        <svg viewBox="0 0 33 32" aria-hidden="true"
+                            class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-18jsvk2 r-lwhw9o r-cnnz9e h-6 w-6">
+                            <g>
+                                <path
+                                    d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466">
+                                </path>
+                            </g>
+                        </svg><span class="hidden md:block">Grok</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 w-fit px-4 py-1 hover:bg-gray-200 hover:rounded-[15vmin] hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">group</span> <span
+                            class="hidden md:block">Communities</span>
+                    </li>
+                    <li
+                        class="flex justify-center items-center md:justify-start gap-4 w-full px-4 py-1 hover:bg-gray-200 hover:rounded-[15vmin] hover:cursor-pointer">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"
+                            class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-18jsvk2 r-1q142lx r-1kihuf0 r-1472mwg r-di8nfa r-lrsllp h-6 w-6"
+                            data-testid="icon">
+                            <g>
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                </path>
+                            </g>
+                        </svg>
+                        </svg></span> <span class="hidden md:block">Premium</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 w-fit px-4 py-1 hover:bg-gray-200 hover:rounded-[15vmin] hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">bolt</span> <span
+                            class="hidden md:block">Verified
+                            Orgs</span>
+                    </li>
+                    <li
+                        class="flex justify-center items-center md:justify-start gap-3 w-full px-4 py-1 hover:bg-gray-200 hover:rounded-[15vmin] hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">person</span> <span
+                            class="hidden md:block">Profile</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 w-fit px-4 py-1 hover:bg-gray-200 hover:rounded-[15vmin] hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">pending</span> <span
+                            class="hidden md:block">More</span>
+                    </li>
+                    <li class="w-full flex md:justify-start justify-center">
+                        <button
+                            class="bg-black text-white rounded-full w-12 h-12 md:w-56 md:h-auto py-3 lg:px-5 p-3 hover:bg-[#000000ba] transition duration-200 text-lg font-bold flex items-center justify-center gap-2 mt-2">
+                            <span class="hidden md:inline">Post</span>
+                            <svg viewBox="0 1 25 24" aria-hidden="true" class="md:hidden " style="color: white;">
+                                <g>
+                                    <path
+                                        d="M23 3c-6.62-.1-10.38 2.421-13.05 6.03C7.29 12.61 6 17.331 6 22h2c0-1.007.07-2.012.19-3H12c4.1 0 7.48-3.082 7.94-7.054C22.79 10.147 23.17 6.359 23 3zm-7 8h-1.5v2H16c.63-.016 1.2-.08 1.72-.188C16.95 15.24 14.68 17 12 17H8.55c.57-2.512 1.57-4.851 3-6.78 2.16-2.912 5.29-4.911 9.45-5.187C20.95 8.079 19.9 11 16 11zM4 9V6H1V4h3V1h2v3h3v2H6v3H4z"
+                                        fill="white">
+                                    </path>
+                                </g>
+                            </svg>
+                        </button>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3  md:px-4 py-1 hover:rounded-[15vmin] hover:cursor-pointer ">
+                        <div
+                            class="flex items-center justify-center md:justify-between mt-5 hover:bg-borderSearch rounded-full p-2 w-full">
+                            <div class="flex items-center space-x-3">
+                                <div
+                                    class="w-10 h-10 rounded-full font-[sans-serif] bg-sandip flex justify-center items-center text-xl text-white font-normal">
+                                    S
+                                </div>
+                                <!-- Optional image if you use it -->
+                                <!-- <img src="https://via.placeholder.com/40" alt="User" class="w-10 h-10 rounded-full"> -->
+
+                                <div class="hidden md:block">
+                                    <div class="text-gray-800 leading-tight text-sm">S R</div>
+                                    <p class="text-sm text-gray-500">@sandip97316</p>
+                                </div>
+                            </div>
+                            <div class="md:block hidden px-6">
+                                <button class="text-end rounded-full px-1 py-1 text-sm">•••</button>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+
+        <div class="second w-full border border-x-bordergray border-y-white">
+            <div class="sticky top-0">
+                <div class="top flex sticky top-0 border-b border-bordergray backdrop-blur bg-white/30">
+                    <div class="absolute w-[10%] h-1 bg-blue-500 bottom-0 left-[21%] rounded-full z-10"></div>
+                    <div class="w-1/2 flex justify-center text-base p-3 font-semibold hover:bg-gray-100 cursor-pointer">
+                        For
+                        You
+                    </div>
+                    <div
+                        class="w-1/2 flex justify-center p-3 text-base font-semibold hover:bg-gray-100 text-boderSicon cursor-pointer">
+                        Following</div>
+                </div>
+            </div>
+
+            <!-- What is happening section -->
+            <div class="whatisapp flex px-5 py-4 ">
+                <div
+                    class="w-10 h-9 rounded-full font-[sans-serif] bg-sandip flex justify-center items-center  text-x; text-white">
+                    S</div>
+                <div class="w-full ml-3">
+                    <input class="w-full outline-none text-xl placeholder:text-boderSicon" type="text"
+                        placeholder="What's happening?">
+                    <div
+                        class="text-btnColor flex items-center gap-1 mt-3 font-semibold text-sm hover:bg-blue-100 w-fit rounded-full px-2 py-1 cursor-pointer">
+                        <span class="material-symbols-outlined text-base">globe_asia</span>
+                        <span>Everyone can reply</span>
+                    </div>
+                    <div class="w-full h-px bg-bordergray my-3"></div>
+                    <div class="flex justify-between items-center">
+                        <!-- Icons -->
+                        <div class="text-btnColor flex  flex-wrap items-center">
+                            <span
+                                class="material-symbols-outlined text-xl hover:bg-blue-100 px-2 py-1 rounded-full cursor-pointer">image</span>
+                            <span
+                                class="material-symbols-outlined text-xl hover:bg-blue-100 px-2 py-1 rounded-full cursor-pointer">gif_box</span>
+                            <svg viewBox="0 0 33 32"
+                                class="w-9 fill-btnColor hover:bg-blue-100 p-2 rounded-full cursor-pointer"
+                                aria-hidden="true">
+                                <path
+                                    d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466" />
+                            </svg>
+                            <span
+                                class="material-symbols-outlined text-xl hover:bg-blue-100 px-2 py-1 rounded-full cursor-pointer">ballot</span>
+                            <span
+                                class="material-symbols-outlined text-xl hover:bg-blue-100 px-2 py-1 rounded-full cursor-pointer">sentiment_satisfied</span>
+                            <span
+                                class="material-symbols-outlined text-xl hover:bg-blue-100 px-2 py-1 rounded-full cursor-pointer">calendar_clock</span>
+                            <span
+                                class="material-symbols-outlined text-xl text-blue-100 cursor-pointer">location_on</span>
+                        </div>
+
+                        <!-- Post Button -->
+                        <button class="bg-postBtn text-white font-bold px-5 py-1.5 rounded-full">Post</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Posts Section -->
+            <div class="posts">
+                <!-- Post Card -->
+                <div class="post hover:bg-gray-100 transition-all border-t-[1px]">
+                    <div class="flex">
+                        <div class="m-4">
+                            <img src="https://pbs.twimg.com/profile_images/1530434239782690817/g84xNijk_bigger.jpg"
+                                class="rounded-full w-10 h-9" alt="avatar">
+                        </div>
+                        <div class="content my-3 pr-6 w-full">
+                            <div class="flex justify-between">
+                                <div class="flex flex-wrap items-center gap-2 text-sm">
+                                    <span class="font-bold hover:underline cursor-pointer">Frane_scix</span>
+                                    <span class="material-symbols-outlined text-blue-500 text-sm">verified</span>
+                                    <span class="text-boderSicon">@francisavage · 4h</span>
+                                </div>
+                                <div class="flex">
+                                    <svg viewBox="0 0 33 32"
+                                        class="w-9 hover:fill-btnColor hover:bg-blue-100 p-2 rounded-full cursor-pointer"
+                                        aria-hidden="true">
+                                        <path
+                                            d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466" />
+                                    </svg>
+                                    <button
+                                        class="text-sm hover:bg-blue-100 rounded-full px-2 py-1 hover:text-blue-400">•••</button>
+
+                                </div>
+                            </div>
+                            <p class="text-sm mt-1">Happy Father's Day to all the amazing dads out there! Your strength,
+                                love, and endless dad jokes make the world a better place. Here's to celebrating you
+                                today
+                                and every day!
+                            <div class="flex items-center text-btnColor gap-1 my-2 hover:underline">
+                                #FathersDay
+                                <img src="https://abs.twimg.com/hashflags/BF-14099_FathersDay_CustomLike_v2/BF-14099_FathersDay_CustomLike_v2.png"
+                                    class="w-4 h-4" alt="tag">
+                            </div>
+                            </p>
+                            <div class="posting my-2">
+                                <img src="https://pbs.twimg.com/media/Gtd2cGwXkAAjCUW?format=jpg&name=small"
+                                    class="rounded-xl border border-borderSearch max-w-full w-full" alt="post image">
+                            </div>
+
+                            <!-- Post Actions -->
+                            <div class="icon flex justify-between text-xs text-gray-600">
+                                <div class="flex items-center  hover:text-btnColor">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-blue-100 p-2 rounded-full ">chat_bubble</span>1k
+                                </div>
+                                <div class="flex items-center  hover:text-green-600">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-green-100 p-2 rounded-full">repeat</span>26
+                                </div>
+                                <div class="flex items-center  hover:text-red-500">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-red-100 rounded-full p-2">favorite</span>109
+                                </div>
+                                <div class="flex items-center hover:text-btnColor">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-blue-100 rounded-full p-2">bar_chart</span>16k
+                                </div>
+                                <div class="flex items-center ">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-blue-100 p-1 rounded-full hover:text-btnColor">bookmark</span>
+                                    <span
+                                        class="material-symbols-outlined p-1 rounded-full hover:bg-blue-100 hover:text-btnColor">upload</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post hover:bg-gray-100 transition-all border-t-[1px]">
+                    <div class="flex">
+                        <div class="m-4">
+                            <img src="https://pbs.twimg.com/profile_images/1530434239782690817/g84xNijk_bigger.jpg"
+                                class="rounded-full w-10 h-9" alt="avatar">
+                        </div>
+                        <div class="content my-3 pr-6 w-full">
+                            <div class="flex justify-between">
+                                <div class="flex flex-wrap items-center gap-2 text-sm">
+                                    <span class="font-bold hover:underline cursor-pointer">Frane_scix</span>
+                                    <span class="material-symbols-outlined text-blue-500 text-sm">verified</span>
+                                    <span class="text-boderSicon">@francisavage · 4h</span>
+                                </div>
+                                <div class="flex">
+                                    <svg viewBox="0 0 33 32"
+                                        class="w-9 hover:fill-btnColor hover:bg-blue-100 p-2 rounded-full cursor-pointer"
+                                        aria-hidden="true">
+                                        <path
+                                            d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466" />
+                                    </svg>
+                                    <button
+                                        class="text-sm hover:bg-blue-100 rounded-full px-2 py-1 hover:text-blue-400">•••</button>
+
+                                </div>
+                            </div>
+                            <p class="text-sm mt-1">Happy Father's Day to all the amazing dads out there! Your strength,
+                                love, and endless dad jokes make the world a better place. Here's to celebrating you
+                                today
+                                and every day!
+                            <div class="flex items-center text-btnColor gap-1 my-2 hover:underline">
+                                #FathersDay
+                                <img src="https://abs.twimg.com/hashflags/BF-14099_FathersDay_CustomLike_v2/BF-14099_FathersDay_CustomLike_v2.png"
+                                    class="w-4 h-4" alt="tag">
+                            </div>
+                            </p>
+                            <div class="posting my-2">
+                                <img src="https://pbs.twimg.com/media/Gtd2cGwXkAAjCUW?format=jpg&name=small"
+                                    class="rounded-xl border border-borderSearch max-w-full w-full" alt="post image">
+                            </div>
+
+                            <!-- Post Actions -->
+                            <div class="icon flex justify-between text-xs text-gray-600">
+                                <div class="flex items-center  hover:text-btnColor">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-blue-100 p-2 rounded-full ">chat_bubble</span>1k
+                                </div>
+                                <div class="flex items-center  hover:text-green-600">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-green-100 p-2 rounded-full">repeat</span>26
+                                </div>
+                                <div class="flex items-center  hover:text-red-500">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-red-100 rounded-full p-2">favorite</span>109
+                                </div>
+                                <div class="flex items-center hover:text-btnColor">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-blue-100 rounded-full p-2">bar_chart</span>16k
+                                </div>
+                                <div class="flex items-center ">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-blue-100 p-1 rounded-full hover:text-btnColor">bookmark</span>
+                                    <span
+                                        class="material-symbols-outlined p-1 rounded-full hover:bg-blue-100 hover:text-btnColor">upload</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post hover:bg-gray-100 transition-all border-t-[1px]">
+                    <div class="flex">
+                        <div class="m-4">
+                            <img src="https://pbs.twimg.com/profile_images/1530434239782690817/g84xNijk_bigger.jpg"
+                                class="rounded-full w-10 h-9" alt="avatar">
+                        </div>
+                        <div class="content my-3 pr-6 w-full">
+                            <div class="flex justify-between">
+                                <div class="flex flex-wrap items-center gap-2 text-sm">
+                                    <span class="font-bold hover:underline cursor-pointer">Frane_scix</span>
+                                    <span class="material-symbols-outlined text-blue-500 text-sm">verified</span>
+                                    <span class="text-boderSicon">@francisavage · 4h</span>
+                                </div>
+                                <div class="flex">
+                                    <svg viewBox="0 0 33 32"
+                                        class="w-9 hover:fill-btnColor hover:bg-blue-100 p-2 rounded-full cursor-pointer"
+                                        aria-hidden="true">
+                                        <path
+                                            d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466" />
+                                    </svg>
+                                    <button
+                                        class="text-sm hover:bg-blue-100 rounded-full px-2 py-1 hover:text-blue-400">•••</button>
+
+                                </div>
+                            </div>
+                            <p class="text-sm mt-1">Happy Father's Day to all the amazing dads out there! Your strength,
+                                love, and endless dad jokes make the world a better place. Here's to celebrating you
+                                today
+                                and every day!
+                            <div class="flex items-center text-btnColor gap-1 my-2 hover:underline">
+                                #FathersDay
+                                <img src="https://abs.twimg.com/hashflags/BF-14099_FathersDay_CustomLike_v2/BF-14099_FathersDay_CustomLike_v2.png"
+                                    class="w-4 h-4" alt="tag">
+                            </div>
+                            </p>
+                            <div class="posting my-2">
+                                <img src="https://pbs.twimg.com/media/Gtd2cGwXkAAjCUW?format=jpg&name=small"
+                                    class="rounded-xl border border-borderSearch max-w-full w-full" alt="post image">
+                            </div>
+
+                            <!-- Post Actions -->
+                            <div class="icon flex justify-between text-xs text-gray-600">
+                                <div class="flex items-center  hover:text-btnColor">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-blue-100 p-2 rounded-full ">chat_bubble</span>1k
+                                </div>
+                                <div class="flex items-center  hover:text-green-600">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-green-100 p-2 rounded-full">repeat</span>26
+                                </div>
+                                <div class="flex items-center  hover:text-red-500">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-red-100 rounded-full p-2">favorite</span>109
+                                </div>
+                                <div class="flex items-center hover:text-btnColor">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-blue-100 rounded-full p-2">bar_chart</span>16k
+                                </div>
+                                <div class="flex items-center ">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-blue-100 p-1 rounded-full hover:text-btnColor">bookmark</span>
+                                    <span
+                                        class="material-symbols-outlined p-1 rounded-full hover:bg-blue-100 hover:text-btnColor">upload</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post hover:bg-gray-100 transition-all border-t-[1px]">
+                    <div class="flex">
+                        <div class="m-4">
+                            <img src="https://pbs.twimg.com/profile_images/1530434239782690817/g84xNijk_bigger.jpg"
+                                class="rounded-full w-10 h-9" alt="avatar">
+                        </div>
+                        <div class="content my-3 pr-6 w-full">
+                            <div class="flex justify-between">
+                                <div class="flex flex-wrap items-center gap-2 text-sm">
+                                    <span class="font-bold hover:underline cursor-pointer">Frane_scix</span>
+                                    <span class="material-symbols-outlined text-blue-500 text-sm">verified</span>
+                                    <span class="text-boderSicon">@francisavage · 4h</span>
+                                </div>
+                                <div class="flex">
+                                    <svg viewBox="0 0 33 32"
+                                        class="w-9 hover:fill-btnColor hover:bg-blue-100 p-2 rounded-full cursor-pointer"
+                                        aria-hidden="true">
+                                        <path
+                                            d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466" />
+                                    </svg>
+                                    <button
+                                        class="text-sm hover:bg-blue-100 rounded-full px-2 py-1 hover:text-blue-400">•••</button>
+
+                                </div>
+                            </div>
+                            <p class="text-sm mt-1">Happy Father's Day to all the amazing dads out there! Your strength,
+                                love, and endless dad jokes make the world a better place. Here's to celebrating you
+                                today
+                                and every day!
+                            <div class="flex items-center text-btnColor gap-1 my-2 hover:underline">
+                                #FathersDay
+                                <img src="https://abs.twimg.com/hashflags/BF-14099_FathersDay_CustomLike_v2/BF-14099_FathersDay_CustomLike_v2.png"
+                                    class="w-4 h-4" alt="tag">
+                            </div>
+                            </p>
+                            <div class="posting my-2">
+                                <img src="https://pbs.twimg.com/media/Gtd2cGwXkAAjCUW?format=jpg&name=small"
+                                    class="rounded-xl border border-borderSearch max-w-full w-full" alt="post image">
+                            </div>
+
+                            <!-- Post Actions -->
+                            <div class="icon flex justify-between text-xs text-gray-600">
+                                <div class="flex items-center  hover:text-btnColor">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-blue-100 p-2 rounded-full ">chat_bubble</span>1k
+                                </div>
+                                <div class="flex items-center  hover:text-green-600">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-green-100 p-2 rounded-full">repeat</span>26
+                                </div>
+                                <div class="flex items-center  hover:text-red-500">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-red-100 rounded-full p-2">favorite</span>109
+                                </div>
+                                <div class="flex items-center hover:text-btnColor">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-blue-100 rounded-full p-2">bar_chart</span>16k
+                                </div>
+                                <div class="flex items-center ">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-blue-100 p-1 rounded-full hover:text-btnColor">bookmark</span>
+                                    <span
+                                        class="material-symbols-outlined p-1 rounded-full hover:bg-blue-100 hover:text-btnColor">upload</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post hover:bg-gray-100 transition-all border-t-[1px]">
+                    <div class="flex">
+                        <div class="m-4">
+                            <img src="https://pbs.twimg.com/profile_images/1530434239782690817/g84xNijk_bigger.jpg"
+                                class="rounded-full w-10 h-9" alt="avatar">
+                        </div>
+                        <div class="content my-3 pr-6 w-full">
+                            <div class="flex justify-between">
+                                <div class="flex flex-wrap items-center gap-2 text-sm">
+                                    <span class="font-bold hover:underline cursor-pointer">Frane_scix</span>
+                                    <span class="material-symbols-outlined text-blue-500 text-sm">verified</span>
+                                    <span class="text-boderSicon">@francisavage · 4h</span>
+                                </div>
+                                <div class="flex">
+                                    <svg viewBox="0 0 33 32"
+                                        class="w-9 hover:fill-btnColor hover:bg-blue-100 p-2 rounded-full cursor-pointer"
+                                        aria-hidden="true">
+                                        <path
+                                            d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466" />
+                                    </svg>
+                                    <button
+                                        class="text-sm hover:bg-blue-100 rounded-full px-2 py-1 hover:text-blue-400">•••</button>
+
+                                </div>
+                            </div>
+                            <p class="text-sm mt-1">Happy Father's Day to all the amazing dads out there! Your strength,
+                                love, and endless dad jokes make the world a better place. Here's to celebrating you
+                                today
+                                and every day!
+                            <div class="flex items-center text-btnColor gap-1 my-2 hover:underline">
+                                #FathersDay
+                                <img src="https://abs.twimg.com/hashflags/BF-14099_FathersDay_CustomLike_v2/BF-14099_FathersDay_CustomLike_v2.png"
+                                    class="w-4 h-4" alt="tag">
+                            </div>
+                            </p>
+                            <div class="posting my-2">
+                                <img src="https://pbs.twimg.com/media/Gtd2cGwXkAAjCUW?format=jpg&name=small"
+                                    class="rounded-xl border border-borderSearch max-w-full w-full" alt="post image">
+                            </div>
+
+                            <!-- Post Actions -->
+                            <div class="icon flex justify-between text-xs text-gray-600">
+                                <div class="flex items-center  hover:text-btnColor">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-blue-100 p-2 rounded-full ">chat_bubble</span>1k
+                                </div>
+                                <div class="flex items-center  hover:text-green-600">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-green-100 p-2 rounded-full">repeat</span>26
+                                </div>
+                                <div class="flex items-center  hover:text-red-500">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-red-100 rounded-full p-2">favorite</span>109
+                                </div>
+                                <div class="flex items-center hover:text-btnColor">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-blue-100 rounded-full p-2">bar_chart</span>16k
+                                </div>
+                                <div class="flex items-center ">
+                                    <span
+                                        class="material-symbols-outlined hover:bg-blue-100 p-1 rounded-full hover:text-btnColor">bookmark</span>
+                                    <span
+                                        class="material-symbols-outlined p-1 rounded-full hover:bg-blue-100 hover:text-btnColor">upload</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+
+
+            </div>
+        </div>
+
+        <div class="third w-full hidden md:block ">
+            <div class="mx-6  fixed bg-white w-[35rem] z-10">
+                <div
+                    class="search w-[75%] my-2 bg-white px-4 py-1.5 border-[1.5px] border-borderSearch rounded-full flex items-center gap-2 hover:border-btnColor ">
+                    <span class="material-symbols-outlined font-inherit text-lg text-boderSicon ">search</span>
+                    <input type="search" class="w-full focus:outline-none " placeholder="Search">
+                </div>
+            </div>
+
+            <div class="primium mx-6 my-2 mt-16 w-9/12 bg-white px-3 py-1.5 border-[1px] border-bordergray rounded-xl ">
+                <div class="text-lg font-bold mb-2"><span>Subscribe to Premium</span></div>
+                <div class="mb-2 text-base  pr-9 font-thin">
+                    <span class="">Subscribe to unlocak new features and if eligible,receive a share of
+                        revenuse.</span>
+                </div>
+                <button
+                    class="text-white bg-btnColor px-4 py-2 rounded-full text-sm font-bold mb-2 hover:bg-hoverBtn">Subscribe</button>
+            </div>
+
+            <div class="what mx-6 my-2 w-9/12 bg-white border-[1px] border-bordergray rounded-xl sticky -top-32">
+                <h1 class="text-xl font-bold px-[14px] py-[11px]">What's happeningspan</h1>
+                <div class="item px-[14px] py-[12px] hover:bg-gray-100 cursor-pointer w-full">
+                    <div class="flex justify-between h-[20px]">
+                        <div class="text-itemTCol font-extralight text-sm">Trending in India</div>
+                        <div><button
+                                class="text-end hover:bg-blue-100 rounded-full px-1 py-1 hover:text-blue-400">•••</button>
+                        </div>
+                    </div>
+                    <div class="font-semibold">AIR 1</div>
+                    <div class="text-itemTCol text-xs ">506K posts</div>
+                </div>
+                <div class="item px-[14px] py-[12px] hover:bg-gray-100 cursor-pointer w-full ">
+                    <div class="flex justify-between h-[20px]">
+                        <div class="text-itemTCol font-extralight text-sm">Sports • Trending</div>
+                        <div><button
+                                class="text-end hover:bg-blue-100 rounded-full px-1 py-1 hover:text-blue-400">•••</button>
+                        </div>
+                    </div>
+                    <div class="font-semibold">#WtcFinal2025</div>
+                    <div class="text-itemTCol text-xs ">61.8K posts</div>
+                </div>
+                <div class="item px-[14px] py-[12px] hover:bg-gray-100 cursor-pointer w-full ">
+                    <div class="flex justify-between h-[20px]">
+                        <div class="text-itemTCol font-extralight text-sm">Trending in India</div>
+                        <div><button
+                                class="text-end hover:bg-blue-100 rounded-full px-1 py-1 hover:text-blue-400">•••</button>
+                        </div>
+                    </div>
+                    <div class="font-semibold">AIR 1</div>
+                    <div class="text-itemTCol text-xs ">506K posts</div>
+                </div>
+                <div class="item px-[14px] py-[12px] hover:bg-gray-100 cursor-pointer w-full ">
+                    <div class="flex justify-between h-[20px]">
+                        <div class="text-itemTCol font-extralight text-sm">Sports • Trending</div>
+                        <div><button
+                                class="text-end hover:bg-blue-100 rounded-full px-1 py-1 hover:text-blue-400">•••</button>
+                        </div>
+                    </div>
+                    <div class="font-semibold">South Africa</div>
+                    <div class="text-itemTCol text-xs ">156K posts</div>
+                </div>
+                <div class="item px-[14px] py-[12px] hover:bg-gray-100 cursor-pointer w-full ">
+                    <button class="text-blue-400 ">Show more</button>
+                </div>
+            </div>
+
+            <div class="who mx-6 my-2 w-9/12 bg-white border-[1px] border-bordergray rounded-xl sticky top-80">
+                <div class="  rounded-xl w-full max-w-sm ">
+                    <h2 class="text-xl font-bold mb-4 px-[12px] pt-4">Who to follow</h2>
+
+                    <!-- Suggested User -->
+                    <div class="flex items-center justify-between mb-4 hover:bg-gray-100 px-[14px] py-[8px]">
+                        <div class="flex items-center space-x-3">
+                            <!-- <img class="w-10 h-10 rounded-full bg-black border-black border"> -->
+                            <div
+                                class="w-10 h-10 rounded-full bg-black flex justify-center items-center  text-xl text-white">
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800 leading-tight">Elon Musk</h4>
+                                <p class="text-sm text-gray-500">@elonmusk</p>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-black text-white px-4 py-1 rounded-full text-sm hover:bg-gray-900 font-semibold">Follow</button>
+                    </div>
+
+                    <!-- Suggested User -->
+                    <div class="flex items-center justify-between mb-4 px-[14px] py-[8px] hover:bg-gray-100">
+                        <div class="flex items-center space-x-3">
+                            <div
+                                class="w-10 h-10 rounded-full font-[sans-serif] bg-sandip flex justify-center items-center  text-xl text-white">
+                                S</div>
+                            <!-- <img src="https://via.placeholder.com/40" alt="User" class="w-10 h-10 rounded-full"> -->
+                            <div>
+                                <h4 class="font-semibold text-gray-800 leading-tight">S R</h4>
+                                <p class="text-sm text-gray-500">@sandip97316</p>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-black text-white px-4 py-1 rounded-full text-sm hover:bg-gray-900 font-semibold">Follow</button>
+                    </div>
+
+                    <!-- Suggested User -->
+                    <div class="flex items-center justify-between px-[14px] py-[8px] hover:bg-gray-100">
+                        <div class="flex items-center space-x-3">
+                            <img src="https://pbs.twimg.com/profile_images/1832111393018957824/A1WETlpl_200x200.jpg"
+                                alt="User" class="w-10 h-10 rounded-full">
+                            <div>
+                                <h4 class="font-semibold text-gray-800 leading-tight">CodeWithHarry</h4>
+                                <p class="text-sm text-gray-500">@codewithharry</p>
+                            </div>
+                        </div>
+
+                        <button
+                            class="bg-black text-white px-4 py-1 rounded-full text-sm hover:bg-gray-900 font-semibold">Follow</button>
+                    </div>
+
+                    <!-- Show more -->
+                    <div class="item px-[14px] py-[12px] hover:bg-gray-100 cursor-pointer w-full ">
+                        <button class="text-blue-400 ">Show more</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="primium mx-6 my-2 w-8/12 bg-white px-3 py-1.5 sticky top-[40rem]">
+                <!-- Terms and Conditions / Footer Links -->
+                <div class="text-xs text-gray-500 w-full max-w-sm flex flex-wrap gap-x-2 gap-y-1">
+                    <a href="#" class="hover:underline">Terms of Service</a>|
+                    <a href="#" class="hover:underline">Privacy Policy</a>|
+                    <a href="#" class="hover:underline">Cookie Policy</a>|
+                    <a href="#" class="hover:underline">Accessibility</a>|
+                    <a href="#" class="hover:underline">Ads Info</a>|
+                    <a href="#" class="hover:underline">More...</a>|
+                    <span class="w-full mt-1">© 2025 Twitter Clone</span>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
